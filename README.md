@@ -1,5 +1,6 @@
 ##DDI-MDAE and DDI-MDAE (PU learning)
 This repository proposed a multi-modal deep auto-encoders based drug representation learning method for DDI prediction, named DDI-MDAE. Moreover, we improved DDI-MDAE by applying a specialized random forest classifier in the positive-unlabeled (PU) learning setting, the improved method is called DDI-MDAE (PU learning). 
+
 ###Input format
 The input data should be an undirected graph in which node IDs start from 1 to N (N is the number of nodes in the graph). Each line contains two node IDs of drug and feature repectively indicating an edge in the graph.
 
