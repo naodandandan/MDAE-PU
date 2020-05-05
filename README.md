@@ -4,6 +4,7 @@ This repository proposed a multi-modal deep auto-encoders based drug representat
 
 ### Input format
 
+The input data is a combination of the original data, including five adjacency matrices. We take the adjacency matrix ```A = {A(1), A(2), ..., A(T)}``` as the input of our model, where T denotes the number of input feature networks.  
 The input data should be an undirected graph in which node IDs start from 1 to N (N is the number of nodes in the graph). Each line contains two node IDs of drug and feature repectively indicating an edge in the graph.
 
 Text file sample
